@@ -14,12 +14,25 @@ This repository is part of [Omdena's local chapter challenge](https://www.omdena
 I created this workflow and presented this to the team to support understanding and communication:
 
 - [docs/bhutan_flood_model_workflow.pdf](docs/bhutan_flood_model_workflow.pdf):  
-  A visual overview of the Bhutan flood risk prediction workflow. It outlines how ERA5 historical data and GraphCast forecasts are used to train and deploy a machine learning model for real-time flood risk assessment, along with a Q&A-style explainer covering common questions about model training, feature selection, proxy labels, GraphCast usage, and more.
+  A visual overview of the Bhutan flood risk prediction workflow. It outlines how ERA5 historical data and GraphCast forecasts are used to train and deploy a machine learning model for real-time flood risk assessment, along with a Q&A-style explainer covering common questions about model training, feature selection, proxy labels, GraphCast usage, and more. These files help both technical and non-technical stakeholders understand our modeling strategy and deployment plan.
 
-These files help both technical and non-technical stakeholders understand our modeling strategy and deployment plan.
+At the midpoint of the project, I designed and presented the core ML modeling framework for flood risk prediction in Bhutan.
+
+- [Bhutan flood risk prediction system using ML (PDF)](docs/Bhutan_flood_risk_prediction_system_using_ML.pdf)
+
+### Highlights:
+- Framed the problem as predicting **surface runoff** using ERA5 weather data
+- Engineered features (time lags, rolling means, interactions) for each (lat, lon) grid
+- Trained and evaluated **Random Forest**, XGBoost, and Linear Regression models  
+  → Random Forest performed best across Bhutan
+- Analyzed spatial patterns in model performance and feature importance
+- Proposed next steps: integrate glacier lake data, explore deep models (e.g., RNNs, GNNs), and link to early-warning systems
+
+This presentation helped align the team’s modeling direction and project priorities.
 
 
-## Project Roadmap
+
+## 💡Project Roadmap
 
 ### 1. Data Collection
 **Goal:** Fetch and organize relevant data from multiple sources  
