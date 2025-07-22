@@ -83,12 +83,10 @@ At the midpoint of the project, as new members joined, I presented the core ML m
   - Mean: `2m_temperature`, `2m_dewpoint_temperature`, `RH`
   - Max/min: computed for `Tmax`/`Tmin` from hourly temps
 - Use `xarray`/`pandas` to resample
-- Handle missing values
-- Save in `.nc` or `.pkl` formats, organized by region and variable
 
 ---
 
-### 3. ML / DL Modeling
+### 3. ML / DL Modeling (Ongoing)
 **Goal:** Predict flood or extreme rainfall risk  
 
 #### 🧩 Feature Engineering
@@ -128,14 +126,16 @@ At the midpoint of the project, as new members joined, I presented the core ML m
 
 ---
 
-
 ## 📁 Repository Structure
 
-- **`code/`** – Python scripts and notebooks for data processing and analysis  
-- **`data/`** – Raw meteorological data files
-- **`docs/`** – Flood prediction ML workflow
-- **`era5_data/`** – Hourly climate variables from ERA5, organized by variable and year
-- **`processed_MET_data/`** – Cleaned and standardized MET data for each region  
-- **`world_boundaries_for_bhutan_map/`** – Shapefiles and boundary data for mapping  
-- **`README.md`** – Project overview and instructions  
+- `code/` – Python scripts and notebooks for data downloading, processing and analysis  
+- `data/` – Mixed meteorological datasets, including raw and auxiliary data sources  
+- `docs/` – Flood prediction ML workflow documentation  
+- `era5_data_excel/` – ERA5 climate variables downsampled to 6-hour intervals and saved in Excel format  
+- `era5_data_grib_raw/` – Raw ERA5 climate data in GRIB format, organized by variable and year  
+- `processed_MET_data/` – Cleaned and standardized meteorological data from each weather station
+- `world_boundaries_for_bhutan_map/` – Shapefiles and boundary data used for Bhutan mapping  
+- `README.md` – Project overview and usage instructions  
+- `.gitignore` – Specifies intentionally untracked files to ignore
+
 
