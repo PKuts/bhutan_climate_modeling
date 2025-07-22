@@ -1,4 +1,9 @@
 
+## ❓ Frequently Asked Questions
+
+This section provides answers to common questions about the modeling strategy, data sources, and forecasting pipeline used in our Bhutan flood risk prediction project. It is intended to help both new team members and external collaborators quickly understand key concepts, design decisions, and system capabilities.
+
+
 Q: What exactly does it mean to train a model? Why is training necessary?
 A: Training a model means teaching it to learn patterns and relationships between input features (e.g., rainfall, temperature) and the target outcome (e.g., flood risk). During training, the model learns optimal parameters and how to process or transform features to improve accuracy. Without this training phase, model predictions would be essentially random and unreliable.
 

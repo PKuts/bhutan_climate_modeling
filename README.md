@@ -19,6 +19,8 @@ I created this workflow and presented it to the team to support understanding an
   - Includes Q&A-style notes on model training, feature selection, proxy labels, and GraphCast usage  
   - Helps both technical and non-technical stakeholders understand the modeling strategy
 
+📘 Looking for modeling FAQs? See [docs/README.md](docs/README.md) for answers to common questions about the ML approach, data, and forecast design.
+
 
 At the midpoint of the project, as new members joined, I presented the core ML modeling framework and current progress to guide team alignment:
 
