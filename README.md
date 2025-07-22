@@ -11,25 +11,22 @@ This repository is part of [Omdena's local chapter challenge](https://www.omdena
 
 ## 📄 Project Documentation
 
-I created this workflow and presented this to the team to support understanding and communication:
+I created this workflow and presented it to the team to support understanding and communication:
 
-- [docs/bhutan_flood_model_workflow.pdf](docs/bhutan_flood_model_workflow.pdf):  
-  A visual overview of the Bhutan flood risk prediction workflow. It outlines how ERA5 historical data and GraphCast forecasts are used to train and deploy a machine learning model for real-time flood risk assessment, along with a Q&A-style explainer covering common questions about model training, feature selection, proxy labels, GraphCast usage, and more. These files help both technical and non-technical stakeholders understand our modeling strategy and deployment plan.
+- [docs/bhutan_flood_model_workflow.pdf](docs/bhutan_flood_model_workflow.pdf)  
+  - Visual overview of the Bhutan flood risk prediction workflow  
+  - Shows how ERA5 historical data and GraphCast forecasts are used to train and deploy an ML model  
+  - Includes Q&A-style notes on model training, feature selection, proxy labels, and GraphCast usage  
+  - Helps both technical and non-technical stakeholders understand the modeling strategy
 
-At the midpoint of the project, I designed and presented the core ML modeling framework for flood risk prediction in Bhutan.
 
-- [Bhutan flood risk prediction system using ML (PDF)](docs/Bhutan_flood_risk_prediction_system_using_ML.pdf)
+At the midpoint of the project, as new members joined, I presented the core ML modeling framework and current progress to guide team alignment:
 
-### Highlights:
-- Framed the problem as predicting **surface runoff** using ERA5 weather data
-- Engineered features (time lags, rolling means, interactions) for each (lat, lon) grid
-- Trained and evaluated **Random Forest**, XGBoost, and Linear Regression models  
-  → Random Forest performed best across Bhutan
-- Analyzed spatial patterns in model performance and feature importance
-- Proposed next steps: integrate glacier lake data, explore deep models (e.g., RNNs, GNNs), and link to early-warning systems
-
-This presentation helped align the team’s modeling direction and project priorities.
-
+- [docs/Bhutan_flood_risk_prediction_system_using_ML.pdf](docs/Bhutan_flood_risk_prediction_system_using_ML.pdf)  
+  - Introduced the ML modeling workflow and explained the use of surface runoff as a proxy for flood risk  
+  - Walked through how the models were developed, including data preparation, EDA, and feature engineering  
+  - Showcased completed models: Random Forest, XGBoost, and Linear Regression → RF performed best  
+  - Proposed next steps and modeling priorities to align efforts and support collaboration across the team
 
 
 ## 💡Project Roadmap
