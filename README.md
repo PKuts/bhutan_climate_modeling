@@ -48,7 +48,10 @@ At the midpoint of the project, as new members joined, I presented the core ML m
 ### 1. Data Collection
 **Goal:** Fetch and organize relevant data from multiple sources  
 
-####  ERA5 Hourly Reanalysis (Main Source)
+#### ERA5 Hourly Reanalysis (Main Source)
+
+[ERA5 Single Levels - Copernicus Climate Data Store](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview)
+
 - **Variables:**  
   - `Total_precipitation`  
   - `2m_temperature`  
